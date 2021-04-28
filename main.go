@@ -5,10 +5,13 @@ import (
 )
 
 func main() {  
-    c1 := complex(5, 7)
-    c2 := 8 + 27i
-    cadd := c1 + c2
-    fmt.Println("sum:", cadd)
-    cmul := c1 * c2
-    fmt.Println("product:", cmul)
+    const (
+        name = "John"
+        age = 50
+        country = "Canada"
+    )
+    fmt.Println(name)
+    fmt.Println(age)
+    fmt.Println(country)
+
 }
